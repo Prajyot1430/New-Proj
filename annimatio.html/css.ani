@@ -1,0 +1,7 @@
+.main{
+    background-color:red;
+    height:100px;
+    width:100px;
+    color:white;
+    animation:animal 2s;
+}

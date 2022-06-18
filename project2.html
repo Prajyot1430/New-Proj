@@ -9,7 +9,29 @@
 <style>
 
     body{background-color: yellow;}
+    border:1 px solid
     
+
+    }
+    img{
+        width: 100px;
+        height:100px;
+
+    }
+    h1{
+        background-color: blue;
+        position: absolute;
+        top: 0%;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        color: coral;
+        box-sizing: border-box;
+    }
+    img:hover .h1{
+        left: 0;
+    }
 
 </style>
 <body>
@@ -28,16 +50,16 @@
 
     <div>
 <label for="cricket">select Occupation</label>
-<input type="cricket" id="cricket">
+<select name="cricket" id="cricket">
 
-<option>ipl2022</option>
-<option>t20 world cup</option>
-<option>asia cup</option>
-<br><br>
+<option value="ipl2022">ipl 2022</option>
+<option value="t20 world cup">t20 world cup</option>
+<option value="asia cup">asia cup</option><br><br>
+
 </div>
 Fav Player:
-<label for="rohit sharma">sharma</label>
-<input type="radio" id="rohit sharam">
+<label for="rohitsharma">sharma</label>
+<input type="radio" id="rohitsharam">
 <label for="vk">virat</label>
 <input type="radio" id="vk"><br><br>
 

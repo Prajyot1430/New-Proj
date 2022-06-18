@@ -1,0 +1,14 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+
+}
+header{
+    background-color: aqua;
+}
